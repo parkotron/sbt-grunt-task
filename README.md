@@ -1,4 +1,4 @@
-SbtGruntTask
+sbt-grunt-task
 ============
 
 A plugin for sbt that allows grunt tasks to be run within sbt.
