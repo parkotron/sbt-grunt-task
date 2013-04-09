@@ -1,7 +1,7 @@
 sbt-grunt-task
 ============
 
-A plugin for sbt that allows grunt tasks to be run within sbt.
+A plugin that allows grunt tasks to be run within SBT.
 
 Currently more of a proof of concept for improving workflow for front-end dev with Lift than a fully fledged plugin.
 
