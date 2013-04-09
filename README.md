@@ -3,7 +3,7 @@ sbt-grunt-task
 
 A plugin that allows grunt tasks to be run within SBT.
 
-Currently more of a proof of concept for improving workflow for front-end dev with Lift than a fully fledged plugin.
+Currently more of a proof of concept for improving workflow for front-end dev with Lift than a fully fledged plugin. I would expect it to include bower or switch to yeoman in the future if this works out for us.
 
 The goal of this is to abstract as much dependency on sbt as possible as attempts at porting anything to do with front-end asset management over to Scala/Java + SBT have resulted in dependency hell (i.e. incompatible rhino versions) or the work flow being rigid and slow to reload.
 
