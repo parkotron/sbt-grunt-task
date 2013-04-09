@@ -21,16 +21,22 @@ The goal of this is to abstract as much dependency on sbt as possible as attempt
 
 ####Working with the plugin
 Your package.json and gruntfile.js should be in the root of your project:
+	
 	grunt
+
 will run the default grunt task
 
 	grunt-task <taskname>
+
 will run the specified task by name
 
 ####Useful other SBT commands 
 
 	watchSources <++= baseDirectory map { path => ((path / "src" / "main" / "webapp" / "app" ) ** "*.js").get }
 Will allow the task to run on every file change (in this case just js files) in the specified folder when you run grunt with
+
 	~ grunt
+
 or
+
 	~ grunt-task <taskname>
